@@ -9,4 +9,4 @@
 
 ### HAPPY CODE | HAPPY MONEY | HAPPY LIFE
 
-#### © 2023 Bản quyền thuộc về giáo.làng | fb/giao.lang.bis | youtube.com/@giaolang
+#### © 2023 Bản quyền chỉnh sửa nội dung (từ tài liệu gốc của SAP) thuộc về giáo.làng và đồng nghiệp Nguyễn Hoàng Linh | fb/giao.lang.bis | youtube.com/@giaolang

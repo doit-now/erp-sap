@@ -1,0 +1,3 @@
+﻿1. Dùng Student ID/Teacher ID và password được cấp để sign in vào hệ thống bằng đường link: https://s77.sapucc.in.tum.de/
+2. Sửa 3xx thành 305
+3. Hệ thống sẽ yêu cầu đổi password sau lần đăng nhập đầu tiên. Làm theo hướng dẫn để đổi password và nhớ password này cho các lần đăng nhập sau.
