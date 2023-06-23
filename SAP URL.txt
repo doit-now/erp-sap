@@ -3,4 +3,4 @@
 3. Hệ thống sẽ yêu cầu đổi password sau lần đăng nhập đầu tiên. Làm theo hướng dẫn để đổi password và nhớ password này cho các lần đăng nhập sau.
 
 * LINK LẤY TÀI NGUYÊN
-https://feedu-my.sharepoint.com/:f:/g/personal/linhnh55_fe_edu_vn/En6_rIygfuFNg3mgwFEGvx0BfDpryoOWbc2UCe7kXkAW3g?e=XfgEmB
+https://feedu-my.sharepoint.com/:f:/g/personal/linhnh55_fe_edu_vn/En6_rIygfuFNg3mgwFEGvx0BfDpryoOWbc2UCe7kXkAW3g?e=SUBhgs
