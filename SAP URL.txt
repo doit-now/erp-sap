@@ -1,18 +1,9 @@
 ﻿I. THÔNG TIN LOGIN
 
-1. Dùng Student ID/Teacher ID và password được cấp để sign in vào hệ thống bằng đường link: https://s77.sapucc.in.tum.de/
+1. Dùng Student ID và password được cấp để sign in vào hệ thống bằng đường link: https://s77.sapucc.in.tum.de/
 2. Sửa 3xx thành 305
 3. Hệ thống sẽ yêu cầu đổi password sau lần đăng nhập đầu tiên. Làm theo hướng dẫn để đổi password và nhớ password này cho các lần đăng nhập sau
 4. Nhập sai password quá 3 lần hệ thống sẽ lock account. Cần liên hệ giảng viên để reset account và password!!!
 
-
-II. LINK LẤY TÀI NGUYÊN
-
-1. OneDrive chứa CÁC TEMPLATE NỘP BÀI ASSIGNMENT và SLIDE RECAP
-   > https://feedu-my.sharepoint.com/:f:/g/personal/linhnh55_fe_edu_vn/En6_rIygfuFNg3mgwFEGvx0BfDpryoOWbc2UCe7kXkAW3g?e=uZ861D
-
-2. GitHub cũng chứa các tài liệu tương đương như OneDrive
-
-
-3. link đăng kí tham quan FTown-3
-   > https://forms.office.com/r/FJFyMBum91
+II. DANH SÁCH NHÓM - NHÓM 5-6 SINH VIÊN
+Link: https://feedu-my.sharepoint.com/:f:/g/personal/hoangnt20_fe_edu_vn/EiUH78J0La1EnBq6DQd4GBgBKEgswh5iYhWddoK4UeotXg?e=v1yoJR
