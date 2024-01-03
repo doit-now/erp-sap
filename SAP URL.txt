@@ -6,4 +6,4 @@
 4. Nhập sai password quá 3 lần hệ thống sẽ lock account. Cần liên hệ giảng viên để reset account và password!!!
 
 II. DANH SÁCH NHÓM - NHÓM 5-6 SINH VIÊN
-Link: https://feedu-my.sharepoint.com/:f:/g/personal/hoangnt20_fe_edu_vn/EiUH78J0La1EnBq6DQd4GBgBKEgswh5iYhWddoK4UeotXg?e=v1yoJR
+Link: https://feedu-my.sharepoint.com/:f:/g/personal/hoangnt20_fe_edu_vn/EiUH78J0La1EnBq6DQd4GBgBKEgswh5iYhWddoK4UeotXg?e=qQYSBh
