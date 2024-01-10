@@ -1,0 +1,1677 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>AP</Author>
+  <LastAuthor>Hoang Nguyen The</LastAuthor>
+  <Created>2024-01-03T04:04:55Z</Created>
+  <LastSaved>2024-01-03T04:11:33Z</LastSaved>
+  <Company>FPT University</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10332</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Interior ss:Color="#70AD47" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Interior ss:Color="#00B0F0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Interior ss:Color="#D9E1F2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Interior ss:Color="#F4B084" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Interior ss:Color="#F8CBAD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s114">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s115">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s116">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#F8CBAD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s117">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="20" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="216"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Class</Data></Cell>
+    <Cell><Data ss:Type="String">RollNumber</Data></Cell>
+    <Cell><Data ss:Type="String">Email</Data></Cell>
+    <Cell><Data ss:Type="String">FullName</Data></Cell>
+    <Cell><Data ss:Type="String">Final Exam</Data></Cell>
+    <Cell><Data ss:Type="String">Final Exam_Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Final Exam Resit</Data></Cell>
+    <Cell><Data ss:Type="String">Final Exam Resit_Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Case Study 1</Data></Cell>
+    <Cell><Data ss:Type="String">Case Study 1_Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Case Study 2</Data></Cell>
+    <Cell><Data ss:Type="String">Case Study 2_Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Case Study 3</Data></Cell>
+    <Cell><Data ss:Type="String">Case Study 3_Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Group Presentation</Data></Cell>
+    <Cell><Data ss:Type="String">Group Presentation_Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Participation</Data></Cell>
+    <Cell><Data ss:Type="String">Participation_Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Quiz 1</Data></Cell>
+    <Cell><Data ss:Type="String">Quiz 1_Comment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE151050</Data></Cell>
+    <Cell><Data ss:Type="String">TanNDSE151050@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Nguyễn Duy Tấn</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE160049</Data></Cell>
+    <Cell><Data ss:Type="String">TienHTSE160049@fpt.edu.vn</Data></Cell>
+    <Cell><Data ss:Type="String">Hoàng Trọng Tiến</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE160062</Data></Cell>
+    <Cell><Data ss:Type="String">PhongTTSE160062@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Trần Thanh Phong</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE160878</Data></Cell>
+    <Cell><Data ss:Type="String">QuangBMSE160878@fpt.edu.vn</Data></Cell>
+    <Cell><Data ss:Type="String">Bùi Minh Quang</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE161638</Data></Cell>
+    <Cell><Data ss:Type="String">TrungNMSE161638@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Mai Trung</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE161879</Data></Cell>
+    <Cell><Data ss:Type="String">KhaiNTSE161879@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nguyễn Tuấn Khải</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE162069</Data></Cell>
+    <Cell><Data ss:Type="String">DatTTSE162069@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Trần Tấn Đạt</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE162117</Data></Cell>
+    <Cell><Data ss:Type="String">HieuDMSE162117@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Đỗ Minh Hiếu</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE171116</Data></Cell>
+    <Cell><Data ss:Type="String">TuLTTSE171116@fpt.edu.vn</Data></Cell>
+    <Cell><Data ss:Type="String">Lê Thúc Thanh Tú</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE171188</Data></Cell>
+    <Cell><Data ss:Type="String">PhatDTSE171188@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dương Tiến Phát</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE171666</Data></Cell>
+    <Cell><Data ss:Type="String">VietNHDSE171666@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nguyễn Hoàng Đại Việt</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE171693</Data></Cell>
+    <Cell><Data ss:Type="String">CuongTCSE171693@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trương Chí Cường</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE172146</Data></Cell>
+    <Cell><Data ss:Type="String">CoTMSE172146@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trương Minh Cơ</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE172977</Data></Cell>
+    <Cell><Data ss:Type="String">MinhDVASE172977@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Đặng Võ Anh Minh</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE173012</Data></Cell>
+    <Cell><Data ss:Type="String">NhatLNTSE173012@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lê Nguyễn Tiến Nhật</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE173020</Data></Cell>
+    <Cell><Data ss:Type="String">HuyNBSE173020@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nguyễn Bá Huy</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE173043</Data></Cell>
+    <Cell><Data ss:Type="String">DucLTSE173043@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lê Trung Đức</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SE173230</Data></Cell>
+    <Cell><Data ss:Type="String">NamNHSE173230@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nguyễn Hoàng Nam</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS150147</Data></Cell>
+    <Cell><Data ss:Type="String">ThatBVNSS150147@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bùi Văn Nhật Thất</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS160105</Data></Cell>
+    <Cell><Data ss:Type="String">HauLTSS160105@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lê Thị Hậu</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS160117</Data></Cell>
+    <Cell><Data ss:Type="String">HienTNSS160117@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Trần Ngọc Hiển</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS160129</Data></Cell>
+    <Cell><Data ss:Type="String">DiDDSS160129@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Đào Duy Di</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS160145</Data></Cell>
+    <Cell><Data ss:Type="String">MinhTHHSS160145@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Trương Hoàng Huyền Minh</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS160657</Data></Cell>
+    <Cell><Data ss:Type="String">HaNTNSS160657@fpt.edu.vn</Data></Cell>
+    <Cell><Data ss:Type="String">Nguyễn Thị Ngân Hà</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS160723</Data></Cell>
+    <Cell><Data ss:Type="String">LinhHTSS160723@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hoàng Thùy Linh</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS160737</Data></Cell>
+    <Cell><Data ss:Type="String">ChiTDQSS160737@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Trịnh Đoàn Quỳnh Chi</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS170030</Data></Cell>
+    <Cell><Data ss:Type="String">TinhLVBSS170030@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Lê Văn Bảo Tịnh</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">X</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS170395</Data></Cell>
+    <Cell><Data ss:Type="String">NghiNNSS170395@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Nguyễn Ngọc Nghi</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS170437</Data></Cell>
+    <Cell><Data ss:Type="String">UyenNBKSS170437@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Nguyễn Bình Khánh Uyên</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS170455</Data></Cell>
+    <Cell><Data ss:Type="String">NguyenNTHSS170455@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Nguyễn Trần Hoàng Nguyên</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS170531</Data></Cell>
+    <Cell><Data ss:Type="String">KietDTSS170531@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Đào Tuấn Kiệt</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS170608</Data></Cell>
+    <Cell><Data ss:Type="String">LamNHSS170608@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Nguyễn Hoàng Lam</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell><Data ss:Type="String">SS171242</Data></Cell>
+    <Cell><Data ss:Type="String">TrangNTMSS171242@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nguyễn Thị Minh Trang</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>19</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="By group">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="216"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Class</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">RollNumber</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Email</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">FullName</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Final Exam</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Final Exam_Comment</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Final Exam Resit</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Final Exam Resit_Comment</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Case Study 1</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Case Study 1_Comment</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Case Study 2</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Case Study 2_Comment</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Case Study 3</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Case Study 3_Comment</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Group Presentation</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Group Presentation_Comment</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Participation</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Participation_Comment</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Quiz 1</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Quiz 1_Comment</Data></Cell>
+    <Cell ss:StyleID="s114"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SE160062</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PhongTTSE160062@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Trần Thanh Phong</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SE151050</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">TanNDSE151050@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Nguyễn Duy Tấn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SE173012</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">NhatLNTSE173012@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Lê Nguyễn Tiến Nhật</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS160129</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">DiDDSS160129@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Đào Duy Di</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS160737</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">ChiTDQSS160737@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Trịnh Đoàn Quỳnh Chi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS170437</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">UyenNBKSS170437@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Nguyễn Bình Khánh Uyên</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE161638</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">TrungNMSE161638@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Nguyễn Mai Trung</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE161879</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">KhaiNTSE161879@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Nguyễn Tuấn Khải</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE162069</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">DatTTSE162069@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Trần Tấn Đạt</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE162117</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">HieuDMSE162117@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Đỗ Minh Hiếu</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SE171188</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PhatDTSE171188@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Dương Tiến Phát</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SE171666</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">VietNHDSE171666@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Nguyễn Hoàng Đại Việt</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SE171693</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">CuongTCSE171693@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Trương Chí Cường</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SE172146</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">CoTMSE172146@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Trương Minh Cơ</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SE172977</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">MinhDVASE172977@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Đặng Võ Anh Minh</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS160723</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">LinhHTSS160723@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Hoàng Thùy Linh</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE173020</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">HuyNBSE173020@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Nguyễn Bá Huy</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE173043</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">DucLTSE173043@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Lê Trung Đức</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE173230</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">NamNHSE173230@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Nguyễn Hoàng Nam</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SS160105</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">HauLTSS160105@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Lê Thị Hậu</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SS160117</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">HienTNSS160117@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Trần Ngọc Hiển</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SS171242</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">TrangNTMSS171242@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Nguyễn Thị Minh Trang</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS170030</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">TinhLVBSS170030@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Lê Văn Bảo Tịnh</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS170395</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">NghiNNSS170395@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Nguyễn Ngọc Nghi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS170455</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">NguyenNTHSS170455@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Nguyễn Trần Hoàng Nguyên</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS170531</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">KietDTSS170531@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Đào Tuấn Kiệt</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS170608</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">LamNHSS170608@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Nguyễn Hoàng Lam</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s69">
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">SS160145</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">MinhTHHSS160145@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Trương Hoàng Huyền Minh</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE160049</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">TienHTSE160049@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Hoàng Trọng Tiến</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE160878</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">QuangBMSE160878@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Bùi Minh Quang</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SE171116</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">TuLTTSE171116@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Lê Thúc Thanh Tú</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SS160657</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">HaNTNSS160657@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Nguyễn Thị Ngân Hà</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s77">
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SAP1702_Half 1</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">SS150147</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">ThatBVNSS150147@fpt.edu.vn</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Bùi Văn Nhật Thất</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s116"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>33</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
