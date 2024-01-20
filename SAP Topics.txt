@@ -1,0 +1,14 @@
+– SAP SD
+
+1. Qui trình trả hàng Return Delivery
+2. Qui trình Credit/Debit
+
+– SAP MM
+
+1. Quy trình Procurement to Pay nhưng bỏ qua bước nhập kho (dạng mua hàng Consumable) thì khác với mua hàng nhập kho như thế nào?
+2. Giá trên đơn hàng < giá trên hoá đơn thì như thế nào? Ghi nhận vào hệ thống sẽ ảnh hưởng gì?
+
+– SAP PP
+
+1. Tìm hiểu về quy trình Make - to - Stock (planning strategy 10)
+2. Tìm hiểu về quy trình Make - to - Order (Planning strategy 20)
