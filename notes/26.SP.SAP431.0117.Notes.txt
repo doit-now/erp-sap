@@ -1,0 +1,196 @@
+                                MÌNH ĂN GÌ BỮA NAY? 
+                       ->>>>> MÌNH CODE ABAP VỚI CÁC CHỦ ĐỀ:
+
+**********************************************************************************
+0. CHỈNH THEME
+1. DATA TYPE
+2. KHAI BÁO BIẾN
+3. TẠO REPORT PROGRAM | EXECUTABLE PROGRAM ~ CONSOLE APP
+4. IN THÔNG TIN RA MÀN HÌNH REPORT
+5. LỆNH ĐIỀU KHIỂN IF
+**********************************************************************************
+
+
+
+**********************************************************************************
+>>>>> ABAP VERSION
+**********************************************************************************
+- THEO THỜI GIAN, CTY SAP NÂNG CẤP SERVER, NÂNG CẤP THÊM NGÔN NGỮ ABAP, 
+  NÂNG CẤP THÊM BỘ KEYWORD, CÚ PHÁP, CÁCH THỨC CODE. 
+- "NETWEAVER" LÀ HỆ THỐNG HẠ TẦNG, PHẦN MỀM, TRÌNH BIÊN DỊCH... CHẠY TRÊN SAP SERVER CUNG CẤP VIỆC 
+  HỖ TRỢ, THỰC THI CODE ABAP
+- VERSION HIỆN TẠI CỦA NETWEAVER LÀ 7.5X
+ 
+- CÚ PHÁP CODE THEO VERSION CŨ CỦA NETWEAVER THÌ SẼ KO KHUYẾN KHÍCH DÙNG, 
+  THÌ GỌI LÀ LEGACY CODE, OBSOLETE - CODE CŨ  
+
+
+
+**********************************************************************************
+>>>>> BIẾN HỆ THỐNG ~~~~ BIẾN MÔI TRƯỜNG TRONG WINDOWS
+**********************************************************************************
+
+- SAP SERVER CUNG CẤP 1 VÙNG RAM, LƯU TRỮ 1 SỐ THÔNG TIN CỦA HỆ THỐNG SAP, VÀ CỦA APP MÌNH, ĐỂ MÌNH CÓ THỂ SỬ DỤNG NHỮNG THÔNG TIN NÀY CHO APP MÌNH ĐANG VIẾT
+- VÍ DỤ: THÔNG TIN LOGIN USER, LẤY NGÀY GIỜ HỆ THỐNG, BIẾN COUNT CỦA VÒNG LẶP, TRẠNG THÁI BÁO RẰNG CÂU SELECT CÓ THÀNH CÔNG HAY KO, HÀM CHẠY THÀNH CÔNG HAY KO 
+- SỜ CHẠM NHỮNG BIẾN NÀY QUA 1 CÁI CẤU TRÚC DỮ LIỆU GỌI LÀ STRUCT | STRUCTURE, 
+  MANG TÊN sy-
+  (sy VIẾT TẮT CỦA SYSTEM)   - giống như dấu chấm để sờ biến hàm bên trong object
+- LẤY NGÀY SERVER: sy-datum 
+- LẤY GIỜ HỆ THỐNG: sy-uzeit    
+- LẤY TRẠNG THÁI THỰC THI CÂU LỆNH SQL: sy-subrc
+- LẤY BIẾN ĐẾM VÒNG LẶP LOOP: sy-index
+- ...
+
+
+
+**********************************************************************************
+0. LƯU Ý VIẾT CODE ABAP
+**********************************************************************************
+- MỌI LỆNH ABAP ĐỀU KẾT THÚC BẰNG DẤU CHẤM .
+- IF <ĐK GÌ ĐÓ>. TRONG IF CÓ LỆNH GÌ ĐÓ CŨNG ., KO CẦN CHỜ IF XONG RỒI MỚI .
+- GHI CHÚ LỆNH
+  - DẤU * THÌ CÂU GHI CHÚ NGAY ĐẦU DÒNG, ĐỨNG 1 DÒNG GHI CHÚ RIÊNG
+   
+    * ĐÂY LÀ DÒNG GHI CHÚ, DƯỚI DÒNG NÀY LÀ LỆNH CODE BÌNH THƯỜNG 
+  
+  - DẤU " THÌ CÂU GHI CHÚ NẰM SAU LỆNH NÀO ĐÓ, NẰM CÙNG DÒNG VỚI LỆNH 
+ 
+    * GHI CHÚ ĐẦU DÒNG HERE!!!
+    WRITE 'HELLO'.  "ĐÂY LÀ LỆNH IN RA MÀN HÌNH, Y CHANG SYSTEM.OUT.PRINTLN() BÊN JAVA
+
+- DẤU : THAY ĐỔI HÀNH VI CÂU LỆNH 1 CHÚT; GIÚP MÌNH GỘP LỆNH!!! XEM CODE Ở DƯỚI
+ 
+- NHỚ LIÊN TỤC NHẤN CTRL-S HOẶC BIỂU TƯỢNG/NÚT BẤM SAVE ĐỂ SAVE CODE LÊN SERVER
+  MÁY TREO, RỚT KẾT NỐI VỚI SAP SERVER, MẤT CODE TRONG SAP GUI
+  SAVE GUI KO SAVE CODE CỦA BẠN MÀ LÀ SERVER!!!
+
+  
+**********************************************************************************
+I. DATA TYPE
+**********************************************************************************
+- KIỂU DỮ LIỆU TRONG SAP ABAP CX TƯƠNG ĐỒNG VỚI CÁC NGÔN NGỮ LẬP TRÌNH KHÁC
+  DATA TYPE LÀ: HÌNH THÁI, CÁCH THỂ HIỆN CỦA THÔNG TIN, ĐỊNH DẠNG THÔNG TIN: SỐ -> ĐẠI LƯỢNG, ĐẠI LƯỢNG SỐ LẺ THẬP PHÂN -> SỐ THỰC..., ĐẠI LƯỢNG NGUYÊN CON: INTEGER, CHỮ CÁI, NHIỀU CHỮ CÁI ĐI KÈM NHAU -> STRING 
+
+----------------------------------------------------------------------------------
+1. KIỂU DỮ LIỆU PHỔ BIẾN HAY DÙNG:
+- i: integer, số nguyên
+- p: số thực, lưu tiền tệ, ghi thêm số phần thập phân, decimal 2 ~ 2 dấu thập phân, 
+  ví dụ  DATA pi TYPE p DECIMAL 2 VALUE '3.14'.
+
+- c: kí tự lẻ, hoặc chuỗi cố định chiều dài, fixed chiều dài và vùng ram cấp.
+     ghi thêm length 5 thì dù thực sự dùng 3 kí tự, vẫn tốn 5 kí tự trong ram, trong DB, ~ char(5) (SQL Server nvachar(30) KHÁC char(30))
+    MÃ SỐ SV 8 KÍ TỰ c length 8
+- string: 1 chuỗi kí tự, có độ dài max, tuỳ gán đến đâu cấp ram đến đó
+          ~ varchar(30) bên DB 
+    TÊN SV, ĐỊA CHỈ CƯ TRÚ string ~ varchar(50)
+
+- d: date, ngày tháng, lưu theo format yyyymmdd, nhét trong cặp nháy đơn ''  '20260117'
+- t: time giờ phút giây, lưu theo format 'HHMMSS'
+
+- ABAP CHO PHÉP ĐỊNH NGHĨA THÊM CÁC KIỂU CỦA RIÊNG MÌNH
+- ĐẶC BIỆT KHI CHƠI VỚI TABLE, THÌ NÓ CÒN THÊM: DOMAIN, DATE ELEMENT, FIELD... > HỌC SAU
+
+
+
+**********************************************************************************
+II. VARIABLE
+**********************************************************************************
+- BIẾN: LÀ TÊN GỌI ĐẠI DIỆN CHO 1 VALUE!!!!!!!!!!!
+- 1 VALUE, 1 GIÁ TRỊ ĐC CHO 1 CÁI TÊN GỌI, CÁI TÊN GỌI ĐC GỌI LÀ BIẾN
+- VÍ DỤ:  pi = 3.14, pi là biến
+          total = 500K, total là biến đại diện cho value 500K 
+
+
+----------------------------------------------------------------------------------
+1. KHAI BÁO BIẾN
+* DÙNG TỪ KHOÁ DATA, HOẶC DATA:
+
+* CÓ 2 CÁCH KHAI BÁO BIẾN: 
+- KHAI BÁO LẺ TỪNG BIẾN; MỖI KHAI BÁO TỐN ĐÚNG 1 DÒNG LỆNH
+- KHAI BÁO NHIỀU BIẾN CÙNG LÚC, CÓ THỂ KO CÙNG DATA TYPE OKIE LUÔN;
+ CHỈ TỐN 1 DÒNG LỆNH, TA DÙNG DÙNG DẤU :, TỨC LÀ DATA:
+
+* VÍ DỤ:
+> CẦN LƯU THÔNG TIN ID, NAME, YOB CỦA 1 SV
+- KHAI BÁO LẺ: 
+  DATA ID TYPE I.
+  DATA NAME TYPE STRING.
+  DATA YOB TYPE I.
+
+- KHAI BÁO CÙNG LÚC, GỘP
+  DATA: ID TYPE I, NAME TYPE STRING, YOB TYPE I.  "DẤU PHẨY PHÂN CÁCH, TA DÙNG 1 
+                                                   KEYWORD DATA:
+  DATA: ID   TYPE I, 
+        NAME TYPE STRING, 
+        YOB  TYPE I.             "VIẾT NHIỀU HÀNG, NHƯNG PHẨY Ở GIỮA, 1 CHẤM KẾT THÚC
+
+
+* GÁN VALUE
+- GÁN NGAY KHI KHAI BÁO, THÌ SAU BIẾN GHI THÊM VALUE <GIÁ TRỊ>
+- GÁN RIÊNG THÌ DÙNG DẤU =; GÁN SAU KHI KHAI BÁO, DÙNG LỆNH RIÊNG, KO GỘP LÚC KHAI BÁO 
+
+  VÍ DỤ: 
+  DATA id TYPE i VALUE 1.           //int i = 1;
+
+  DATA yob TYPE i.                  //int yob;
+  yob = 2004.                       //yob = 2004; 
+
+
+----------------------------------------------------------------------------------
+2. IN BIẾN, IN GIÁ TRỊ, IN THÔNG TIN
+- LỆNH WRITE DÙNG ĐỂ IN TỪNG BIẾN RIÊNG LẺ. 
+- NẾU MUỐN IN CÙNG LÚC NHIỀU BIẾN, NHIỀU VALUE, PHẢI DÙNG WRITE:  
+- DẤU / DÙNG ĐỂ XUỐNG HÀNG, GIỐNG \n BÊN C, JAVA, C#, JS
+
+WRITE 'NĂM SINH: '.
+WRITE yob.
+
+WRITE: 'NĂM SINH: ', yob.
+
+
+---------------------------------------------------------------------------------- 
+3. CÁCH IN HIỆN ĐẠI 
+- STRING TEMPLATE, CHUỖI IN THEO KIỂU FILL INTO THE BLANK - ĐIỀN VÀO CHỖ TRỐNG
+
+WRITE |CÂU CẦN IN { BIẾN NẰM TRONG NGOẶC NHỌN } CÂU CẦN IN KHÁC { BIẾN KHÁC, HOẶC BIỂU THỨC TÍNH TOÁN }| 
+>>>>> NHỚ DẤU CÁCH SAU {         VÀ TRƯỚC    }  
+
+- CÓ THỂ IN CĂN LỀ, IN Ở VỊ TRÍ X TRÊN MÀN HÌNH, IN MÀU... => NHỜ AI CHAT GIÚP CÚ PHÁP
+
+
+
+----------------------------------------------------------------------------------
+4. QUY TẮC ĐẶT TÊN BIẾN
+- CÓ 2 LOẠI BIẾN: BIẾN TOÀN CỤC (MỌI NƠI GỌI ĐƯỢC), VÀ BIẾN LOCAL (NẰM TRONG "HÀM" NÀO ĐÓ)
+- BIẾN TOÀN CỤC KHI ĐẶT TÊN PHẢI KÈM CÁI PREFIX - TIỀN TỐ  
+         G..._TÊNBIẾN   G: GLOBAL
+  VÍ DỤ: NĂM SINH, LÀ 1 GIÁ TRỊ:  GV_YOB   (GLOBAL VARIABLE, VALUE) MANG TÊN YOB
+  GS_    (STRUCTURE)
+  GT_    (INTERNAL TABLE)
+
+- BIẾN LOCAL KHI ĐẶT DÙNG PREFIX L (LOCAL)
+  LV_
+ 
+
+   
+**********************************************************************************
+III. LỆNH IF
+**********************************************************************************
+- CÚ PHÁP
+  IF ĐIỀU GÌ ĐÓ ĐÚNG SAI .
+    LÀM GÌ ĐÓ.
+  ELSEIF ĐIỀU GÌ ĐÓ ĐÚNG SAI.
+    LÀM GÌ ĐÓ.
+  ELSE.
+    LÀM GÌ ĐÓ.
+  ENDIF.
+
+//Java, C#, C  if(a > 5);    for(...);
+   
+
+
+
+
+
+
+  
